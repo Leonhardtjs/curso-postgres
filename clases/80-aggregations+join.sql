@@ -1,0 +1,1 @@
+select count(*), a.continent from country a inner join continent b on a.continent = b.code GROUP BY count(*), a.continent;

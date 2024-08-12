@@ -1,0 +1,1 @@
+SELECT a.name as country, a.continent as continent, b.name FROM country a, continent b where a.continent = b.code order by b.name ASC;
